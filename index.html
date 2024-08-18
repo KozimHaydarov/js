@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="./css/mainmain.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header" id="headerr">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar__logo">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span class="navbar__text" onclick="showModel()">Deliverto 
+                     Uzbekistan</span>
+                </div>
+                <input type="text" placeholder="Search Amazon">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Shop</p>
+                </div>
+            </div>
+        </div>
+    </header>
+        <header class="header__width">
+            <section>
+                <div class="container">
+                    <div class="wrapper">   
+                        <ul class="wrapper__colection">
+                            <div class="on__all" onclick="allMode()"></div>
+                            <li class="link">
+                                    <span><i class="fa-solid fa-list"></i>All</span>
+                            </li>
+                            <li class="link">
+                                <span>Today's Deals</span>
+                            </li>
+                            <li class="link">   
+                                <span>Customer Service</span>
+                            </li>
+                            <li class="link">
+                              <span>Registry</span>
+                        </li>
+                        <li class="link">
+                            <span>Gift Card</span>
+                        </li>
+                        <li class="link">
+                            <span>Sell</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section>
+       <div class="container">
+        <div class="wraper">
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Taddy</p>
+                <p>90$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+            <div class="wraper__card">
+                <img src="./assets/book.avif" alt="">
+                <p>Book</p>
+                <p>10$</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure.</p>
+            </div>
+        </div>
+       </div>
+    </section>
+
+
+
+    <div class="model">
+        <p>Login</p>
+        <button>Username</button>
+        <button>Password</button>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam ipsum sint quos quas iure animi incidunt, accusantium odio labore.</span>
+        <button clas="url">Next</button>
+    </div>
+    <div class="onclick__all" ondblclick="cloSebtn()"></div>
+
+
+
+
+
+    <script>
+        const model = document.querySelector(".model")
+        function showModel(){
+            model.style.display = "block"
+        }
+        const url = document.querySelector(".url")
+        function cloSebtn(){
+            url.style.display = "none"
+        }
+
+        const on_all = document.querySelector(".on_all")
+        function allMode(){
+            on_all.style.display = "block"
+        }
+
+
+    </script>
+    
+
+
+
+</body>
+</html>
